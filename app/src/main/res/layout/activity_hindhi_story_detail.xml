@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".StoryDetail">
+    <TextView
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:text="story name"
+        android:textStyle="bold"
+        android:textSize="22sp" android:padding="10dp"
+        android:id="@+id/lblstoryname" />
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:background="@drawable/layout_searct_trees"
+        android:layout_height="0dp"
+        android:padding="10dp">
+        <TextView
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="story name"
+            android:textSize="18sp"
+            android:id="@+id/lblstorytext" />
+
+    </ScrollView>
+
+</LinearLayout>

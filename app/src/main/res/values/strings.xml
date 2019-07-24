@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">JayJhulelal</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="stories">
+        <item>HISTORY OF JHULELAL</item>
+        <item>LIFE STORY OF JHULELAL</item>
+        <item>HISTORY OF CHALIO SAHEB</item>
+        <item>CELEBRATION OF CHALIHO SAHEB</item>
+        <item>HISTORY OF CHETICHAND</item>
+        <item>CELEBRATION OF CHETICHAND</item>
+        <item>BHERANA SAHEB</item>
+        <item>PALAV SAHEB</item>
+        <item>SLOGAN OF JHULELAL</item>
+    </string-array>
+
+    <string-array name="storieshindhi">
+        <item>झूलेलाल का इतिहास</item>
+        <item>झूलेलाल की जीवन शैली</item>
+        <item>चालिओसाहेब का इतिहास</item>
+        <item>चालिओसाहेब का उत्सव</item>
+        <item>चेटीचंड का इतिहास</item>
+        <item>चेटीचंड का उत्सव</item>
+        <item>बहिराणा साहिब</item>
+        <item>पलव साहिब</item>
+        <item>झूलेलाल का सलोगन</item>
+    </string-array>
+    <string-array name="languages">
+        <item name="English"></item>
+        <item name="French"></item>
+        <item name="Hindi"></item>
+        <item name="Japanese"></item>
+    </string-array>
+</resources>

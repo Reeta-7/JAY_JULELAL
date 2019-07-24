@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.reetadhinglani.jay_julelal.select_lang">
+
+
+    <Button
+        android:id="@+id/btnenglish"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:onClick="story"
+        android:text="About of Shree Jhulelal Saheb"
+        />
+
+    <Button
+        android:id="@+id/btnhindi"
+        android:layout_width="300dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button"
+        android:layout_centerInParent="true"
+        android:elevation="4dp"
+        android:onClick="Bhajans"
+        android:textColor="@color/white"
+        android:text="Bhajans of Jhulelal Saheb" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_margin="10dp"
+     />
+
+
+
+</LinearLayout>
